@@ -1,5 +1,6 @@
 ## v0.0.8 2026-05-31
 - Added target attributes in hyperlinks
+- Added colors for link states
 
 ## v0.0.7 2026-05-30
 - Added favicon

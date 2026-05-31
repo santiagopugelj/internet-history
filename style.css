@@ -33,3 +33,28 @@ h1 {
 header {
     background-color: rgb(6, 6, 55)
 }
+
+a:visited {
+    color: rgb(101, 157, 18);
+}
+
+a:hover {
+    color: rgb(223, 250, 183);
+}
+
+a:active {
+    color: rgb(255, 222, 4);
+}
+
+.nav a:visited {
+    color: rgb(152, 235, 29);
+}
+
+.nav a:hover {
+    color: rgb(223, 250, 183);
+}
+
+.nav a:active {
+    color: rgb(255, 222, 4);
+}
+
