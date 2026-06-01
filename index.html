@@ -1,6 +1,5 @@
 <!DOCTYPE html>
 <html lang="en">
-
     <head>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -9,48 +8,59 @@
         <!--for SEO:-->       
         <meta name="description" content="The history of internet">
         <meta name="keywords" content="Internet, world wide web">
-        <!--Open Graph Protocol-->
+        <!--Open Graph Protocol = is used to control how your website appears when someone shares it on social media.-->
         <meta property="og:title" content="Internet History">
         <meta property="og:description" content="A brief history of internet and world wide web">
+        <meta property="og:image" content="images/internet3.png">
+        <meta property="og:url" content="https://www.internethistory.com">
         <!--favicon -->
         <link rel="icon" href="favicon/globe.svg">
     </head>
-    
     <body>
         <header>
-            <h1>History of the Internet</h1>
-
-            <nav class="nav">
-                <a href="index.html">Home</a>
-                <a href="timeline.html">Timeline</a>
+            <h1><em>History</em> of the Internet</h1>
+            <nav>
+                <!-- a=element, class=""=atribute, nav-link=value|syntax: <element attribute="value"><element> -->
+                <a class="nav-link" href="index.html">Home</a>
+                <!-- a = meanings "anchor" = are used to apply links to a web page. -->
+                <!-- href = It is an attribute used to specify the destination of a link when the user click on the link-->
+                <a class="nav-link" href="timeline.html">Timeline</a>
             </nav>
         </header>
-
-        <h2>The Internet</h2>
-            <p>The <b>internet</b> is a global system of interconnected computer networks that lets devices comunnicate and share information worldwide</p>
-            <figure>
-                <img src="images/internet3.png" alt="interconnected earth">
-                <figcaption>The Internet connects computers and devices around the world.</figcaption>
-            </figure>
-
-        <h2>Differences with World Wide Web</h2>
-            <p>The "Internet" is not the same as the "World Wide Web". The Internet is a network of computers connected to each other, while the World Wide Web is a system that runs on top of it, used to access and display information. Although the Internet and the World Wide Web are different, in everyday language the term “internet” is often used to refer to the entire system, including the web, apps, and online services.</p>
-            <figure>
-                <img src="images/internet.png" alt="earth surrounded by 'internet' icons">
-                <figcaption>The Internet and the World Wide Web are related, but they are not the same thing.</figcaption>
-            </figure>
-            
-        <h2>World Wide Web</h2>
-            <p>The <strong>World Wide Web (WWW)</strong> is a system of web pages and websites that you acces through the internet using a browser. As a simple idea it's the part of the internet you <em>see and click on</em>—websites, links, images, videos, pages. </p>
-            <figure>
-                <img src="images/www2.png" alt="browser with the text='welcome to the world wide web'">
-                <figcaption>The World Wide Web was created by Tim Berners-Lee in 1989 and made public in 1991.</figcaption>
-            </figure>
-            <figure>
-                <video src="videos/www-cern.mp4" controls poster="images/tblthumbnail.png"></video>
-                <figcaption>The World Wide Web began as a project at CERN, created to help scientists share information over the Internet.</figcaption>
-            </figure>
-        <footer>
+        <main>
+            <section>
+                <h2>The Internet</h2>
+                    <p>The <strong>Internet</strong> is a global system of interconnected computer networks that lets devices comunnicate and share information worldwide</p>
+                    <figure>
+                        <!-- src = source = src it is an attribute used to specify where a resource is located -->
+                        <!-- alt = alternative text = if the image cannot load, the browser can show the alt text -->
+                        <img src="images/internet3.png" alt="interconnected earth">
+                        <figcaption>The Internet connects computers and devices around the world.</figcaption>
+                    </figure>
+            </section>
+            <section>
+                <h2>Differences with World Wide Web</h2>
+                    <p>The "Internet" is not the same as the "World Wide Web". The Internet is a network of computers connected to each other, while the World Wide Web is a system that runs on top of it, used to access and display information. Although the Internet and the World Wide Web are different, in everyday language the term “internet” is often used to refer to the entire system, including the web, apps, and online services.</p>
+                    <figure>
+                        <img src="images/internet.png" alt="earth surrounded by 'internet' icons">
+                        <figcaption>The Internet and the World Wide Web are related, but they are not the same thing.</figcaption>
+                    </figure>
+            </section>
+            <section>
+                <h2>World Wide Web</h2>
+                    <p>The <strong>World Wide Web (WWW)</strong> is a system of web pages and websites that you acces through the internet using a browser. As a simple idea it's the part of the internet you <em>see and click on</em>—websites, links, images, videos, pages. </p>
+                    <figure>
+                        <img src="images/www2.png" alt="browser with the text='welcome to the world wide web'">
+                        <figcaption>The World Wide Web was created by Tim Berners-Lee in 1989 and made public in 1991.</figcaption>
+                    </figure>      
+                    <figure>
+                        <!-- "controls" is a boolean attribute (True (if present) or False (if absent))-->
+                        <video src="videos/www-cern.mp4" controls poster="images/tblthumbnail.png"></video>
+                        <figcaption>The World Wide Web began as a project at CERN, created to help scientists share information over the Internet.</figcaption>
+                    </figure>
+            </section>
+        </main>
+        <footer> 
             <p>&copy; copyright reserved - internethistory.com</p>
         </footer>
     </body>

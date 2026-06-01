@@ -46,15 +46,15 @@ a:active {
     color: rgb(255, 222, 4);
 }
 
-.nav a:visited {
+.nav-link:visited {
     color: rgb(152, 235, 29);
 }
 
-.nav a:hover {
+.nav-link:hover {
     color: rgb(223, 250, 183);
 }
 
-.nav a:active {
+.nav-link:active {
     color: rgb(255, 222, 4);
 }
 

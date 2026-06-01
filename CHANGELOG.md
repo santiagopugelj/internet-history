@@ -1,3 +1,11 @@
+## v0.0.9 2026-06-01
+- Added OG meta tags
+- Moved navigation styling from the `<nav>` element to individual links
+- Renamed `nav` class to `nav-link` for good software development practices
+- Added iframe video from youtube
+- Added comments for good software development practices and personal learning.
+- Added `<main>` and `<section>` elements to improve code semantics and structure
+
 ## v0.0.8 2026-05-31
 - Added target attributes in hyperlinks
 - Added colors for link states
