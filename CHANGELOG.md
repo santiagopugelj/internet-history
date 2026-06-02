@@ -1,3 +1,7 @@
+## v0.0.10 2026-06-02
+- Added ID attribute
+- Added more comments
+
 ## v0.0.9 2026-06-01
 - Added OG meta tags
 - Moved navigation styling from the `<nav>` element to individual links

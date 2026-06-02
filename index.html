@@ -4,6 +4,7 @@
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Internet History</title>
+        <!-- link = is used to link to external resources like stylesheets and site icons -->
         <link rel="stylesheet" href="style.css">
         <!--for SEO:-->       
         <meta name="description" content="The history of internet">
@@ -17,13 +18,14 @@
         <link rel="icon" href="favicon/globe.svg">
     </head>
     <body>
-        <header>
-            <h1><em>History</em> of the Internet</h1>
+        <header> <!-- id = Unique element identifiers for HTML elements. ID names should only be used once per HTML document. ID names cannot have spaces. If your ID name contains multiple words then you can use dashes between the words like this:-->
+            <h1><em id="history-word-index">History</em> of the Internet</h1>
             <nav>
                 <!-- a=element, class=""=atribute, nav-link=value|syntax: <element attribute="value"><element> -->
                 <a class="nav-link" href="index.html">Home</a>
                 <!-- a = meanings "anchor" = are used to apply links to a web page. -->
-                <!-- href = It is an attribute used to specify the destination of a link when the user click on the link-->
+                <!-- href = specifies the URL or path of a linked resource. -->
+                <!-- class= is used to group elements for styling and behavior. Unlike IDs, you can reuse the same class name throughout the HTML document. The class attribute can contain multiple class names separated by spaces. -->    
                 <a class="nav-link" href="timeline.html">Timeline</a>
             </nav>
         </header>
@@ -31,11 +33,12 @@
             <section>
                 <h2>The Internet</h2>
                     <p>The <strong>Internet</strong> is a global system of interconnected computer networks that lets devices comunnicate and share information worldwide</p>
-                    <figure>
+                    <figure> <!-- figure = is used to group content like images and diagrams. -->
                         <!-- src = source = src it is an attribute used to specify where a resource is located -->
                         <!-- alt = alternative text = if the image cannot load, the browser can show the alt text -->
                         <img src="images/internet3.png" alt="interconnected earth">
-                        <figcaption>The Internet connects computers and devices around the world.</figcaption>
+                        <!-- figcaption = provides a caption or description for the content inside a <figure> element. -->
+                        <figcaption>The Internet <strong>connects</strong> computers and devices around the <em>world</em>.</figcaption>
                     </figure>
             </section>
             <section>
@@ -60,7 +63,7 @@
                     </figure>
             </section>
         </main>
-        <footer> 
+        <footer> <!-- &copy = html entity = is a set of characters used to represent a reserved character in HTML-->
             <p>&copy; copyright reserved - internethistory.com</p>
         </footer>
     </body>

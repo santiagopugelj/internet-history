@@ -3,7 +3,7 @@ body {
     margin: 0;
 }
 
-h1, p, h2, a, h3, figcaption, dl, ul {
+h1, p, h2, a, h3, figcaption, ul {
     color: rgb(152, 235, 29);
 }
 
@@ -58,3 +58,6 @@ a:active {
     color: rgb(255, 222, 4);
 }
 
+#history-word-index {
+    color: rgb(186, 163, 132);
+}
