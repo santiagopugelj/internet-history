@@ -1,3 +1,6 @@
+## v0.0.11 2026-06-03
+- Added more comments
+
 ## v0.0.10 2026-06-02
 - Added ID attribute
 - Added more comments
