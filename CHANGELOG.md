@@ -1,3 +1,7 @@
+## v0.0.12 2026-06-04
+- Restore tblthumbnail image format from png to jpg
+- Delete some comments (build > memorizing definitions)
+
 ## v0.0.11 2026-06-03
 - Added more comments
 

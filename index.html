@@ -1,43 +1,26 @@
-<!DOCTYPE html><!--DOCTYPE = is used to tell browsers which version of HTML you're using.-->
-<html lang="en"><!-- html = represents the top level element or the root of an HTML document. To specify the language for the document, you should use the lang attribute-->
-    <head><!-- head = contains important meta data which is behind-the-scenes information needed for browsers and search engines-->
-        <!-- meta elements = represent your site''s metadata. These element have details about things like character encoding, and how websites like twitter should preview your page's link and more.-->
-        <meta charset="UTF-8"><!-- utf-8 character encoding = is a standardized character encoding widely used on the web. 
-        Character encoding is the method computers use to store characters as data. 
-        The charset attribute is used inside of a meta element to set the character encoding to UTF-8. -->
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Internet History</title><!-- title = is used to ser the text that appears in the browser tab or window-->
-        <!-- link = is used to link to external resources like stylesheets and site icons -->
-        <!-- rel = (relationship) = The rel attribute tells the browser what the file in href is.
-        examples:
-            rel="stylesheet" → "the file in href is a stylesheet"
-            rel="icon" → "the file in href is a favicon"
-            rel="preload" → "the file in href should be preloaded" -->
+        <title>Internet History</title>
         <link rel="stylesheet" href="style.css">
-        <!--for SEO:-->
-        <!-- SEO = Search Engine Optimization is a practice that optimizes web pages so they become more visible and rnak higher on search engines -->  
-        <!-- By setting these open graph properties, you can entice users to want to click and engage with your content. -->
-        <!-- Personal tought: its crucial og protocl for successful web-->     
-        <meta name="description" content="The history of internet"><!-- Meta(description)element= is used to provide a short description for the web page and impacting SEO.-->
+        <!--for SEO:-->    
+        <meta name="description" content="The history of internet">
         <meta name="keywords" content="Internet, world wide web">
-        <!--Open Graph Protocol = is used to control how your website appears when someone shares it on social media.-->
-        <meta property="og:title" content="Internet History"><!--is used to set the title that displays for social media posts-->
-        <meta property="og:type" content="website"><!--is used to represent the type of content being shared on social media. Examples of this content include articles, websites, videos, or music.-->
+        <!--og: Open Graph Protocol -->
+        <meta property="og:title" content="Internet History">
+        <meta property="og:type" content="website">
         <meta property="og:description" content="A brief history of internet and world wide web">
-        <meta property="og:image" content="images/internet3.png"><!-- is used to set the image shown for social media posts -->
-        <meta property="og:url" content="https://www.internethistory.com"><!-- is used to set the URL that users will click on for the social media posts-->
-        <!--favicon -->
+        <meta property="og:image" content="images/internet3.png">
+        <meta property="og:url" content="https://www.internethistory.com">
         <link rel="icon" href="favicon/globe.svg">
     </head>
     <body>
-        <header> <!-- id = Unique element identifiers for HTML elements. ID names should only be used once per HTML document. ID names cannot have spaces. If your ID name contains multiple words then you can use dashes between the words like this:-->
+        <header> 
             <h1><em id="history-word-index">History</em> of the Internet</h1>
             <nav>
-                <!-- a=element, class=""=atribute, nav-link=value|syntax: <element attribute="value"><element> -->
-                <a class="nav-link" href="index.html">Home</a>
-                <!-- a = meanings "anchor" = are used to apply links to a web page. -->
-                <!-- href = specifies the URL or path of a linked resource. -->
-                <!-- class= is used to group elements for styling and behavior. Unlike IDs, you can reuse the same class name throughout the HTML document. The class attribute can contain multiple class names separated by spaces. -->    
+                <a class="nav-link" href="index.html">Home</a>  
                 <a class="nav-link" href="timeline.html">Timeline</a>
             </nav>
         </header>
@@ -45,11 +28,8 @@
             <section>
                 <h2>The Internet</h2>
                     <p>The <strong>Internet</strong> is a global system of interconnected computer networks that lets devices comunnicate and share information worldwide</p>
-                    <figure> <!-- figure = is used to group content like images and diagrams. -->
-                        <!-- src = source = It is an attribute used to specify the location of a resource that will be loaded and embedded into the current document -->
-                        <!-- alt = alternative text = if the image cannot load, the browser can show the alt text -->
+                    <figure>
                         <img src="images/internet3.png" alt="interconnected earth">
-                        <!-- figcaption = provides a caption or description for the content inside a <figure> element. -->
                         <figcaption>The Internet <strong>connects</strong> computers and devices around the <em>world</em>.</figcaption>
                     </figure>
                     <body>
@@ -70,13 +50,12 @@
                         <figcaption>The World Wide Web was created by Tim Berners-Lee in 1989 and made public in 1991.</figcaption>
                     </figure>      
                     <figure>
-                        <!-- "controls" is a boolean attribute (True (if present) or False (if absent))-->
-                        <video src="videos/www-cern.mp4" controls poster="images/tblthumbnail.png"></video>
+                        <video src="videos/www-cern.mp4" controls poster="images/tblthumbnail.jpg"></video>
                         <figcaption>The World Wide Web began as a project at CERN, created to help scientists share information over the Internet.</figcaption>
                     </figure>
             </section>
         </main>
-        <footer> <!-- &copy = html entity = is a set of characters used to represent a reserved character in HTML-->
+        <footer>
             <p>&copy; copyright reserved - internethistory.com</p>
         </footer>
     </body>
