@@ -1,9 +1,11 @@
 ## v0.0.14 2026-06-06
-- Improved markdown files formatting.
+- Improved Markdown files formatting.
 - Added anchor tags in H1 (page title)
 - Removed underline from title
 - Added title attribute in anchor tags and images
 - Created css folder
+- Created `contact.html`
+- Removed underline from `nav-link` class
 
 ## v0.0.13 2026-06-05
 - Modified anchor tags

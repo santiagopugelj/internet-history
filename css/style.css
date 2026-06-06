@@ -65,3 +65,12 @@ a:active {
 #link-title {
     text-decoration: none;
 }
+
+input {
+    background-color: rgb(35, 35, 134);
+    color: rgb(152, 235, 29);
+}
+
+.nav-link {
+    text-decoration: none;
+}
