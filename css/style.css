@@ -61,3 +61,7 @@ a:active {
 #history-word-index {
     color: rgb(186, 163, 132);
 }
+
+#link-title {
+    text-decoration: none;
+}
