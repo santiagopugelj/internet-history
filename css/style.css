@@ -58,8 +58,9 @@ a:active {
     color: rgb(255, 222, 4);
 }
 
-#history-word-index {
+#history-word-title {
     color: rgb(186, 163, 132);
+    font-style: italic;
 }
 
 #link-title {

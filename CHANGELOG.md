@@ -1,3 +1,6 @@
+## v0.0.15 2026-06-07
+- Improved nuanced semantic elements
+
 ## v0.0.14 2026-06-06
 - Improved Markdown files formatting.
 - Added anchor tags in H1 (page title)
