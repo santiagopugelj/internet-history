@@ -75,3 +75,7 @@ input {
 .nav-link {
     text-decoration: none;
 }
+
+#footer-quote {
+    text-align: center;
+}

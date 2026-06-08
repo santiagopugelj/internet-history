@@ -1,3 +1,7 @@
+## v0.0.16 2026-06-08
+- Added block quote
+- Fix footer error
+
 ## v0.0.15 2026-06-07
 - Improved nuanced semantic elements
 
