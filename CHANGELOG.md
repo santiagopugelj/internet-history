@@ -1,3 +1,8 @@
+## v0.0.17 2026-06-09
+- Added abbreviation element
+- Added address element
+- Added time element with datetime attribute
+
 ## v0.0.16 2026-06-08
 - Added block quote
 - Fix footer error
