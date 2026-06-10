@@ -1,3 +1,6 @@
+## v0.0.18 2026-06-10
+- Added HTML entity
+
 ## v0.0.17 2026-06-09
 - Added abbreviation element
 - Added address element
