@@ -1,3 +1,6 @@
+## v0.0.19 2026-06-11
+- Added `<pre>` and `<code>` elements
+
 ## v0.0.18 2026-06-10
 - Added HTML entity
 
