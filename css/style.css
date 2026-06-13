@@ -3,7 +3,7 @@ body {
     margin: 0;
 }
 
-h1, p, h2, a, h3, figcaption, ul, code {
+h1, p, h2, a, h3, figcaption, ul, code, dl {
     color: rgb(152, 235, 29);
 }
 
