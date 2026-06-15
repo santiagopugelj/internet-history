@@ -1,3 +1,7 @@
+## v0.0.21 2026-06-15
+- Introduce `<ul>` in nav for good software development practices
+- Modify the new nav with css
+
 ## v0.0.20 2026-06-13
 - Added `<abbr>` element
 - Added description list

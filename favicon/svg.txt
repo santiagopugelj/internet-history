@@ -1,1 +1,0 @@
-SVGs (Scalable Vector Graphics) are vector graphics based on mathematical paths and equations, not pixels. Because of this, they can be scaled to any size without losing quality, making them ideal for logos, icons, and simple illustrations.

@@ -20,6 +20,10 @@ nav, footer {
     background-color: rgb(6, 6, 66)
 }
 
+nav {
+    height: 25px;
+}
+
 video {
     width: 600px;
     border-radius: 10px;
@@ -78,4 +82,10 @@ input {
 
 #footer-quote {
     text-align: center;
+}
+
+nav ul li {
+    float: left;
+    list-style: none;
+    margin-left: 5px;
 }
