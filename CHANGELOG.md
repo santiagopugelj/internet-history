@@ -1,3 +1,6 @@
+## v0.0.22 2026-06-16
+- Added margins and paddings for good software practices.
+
 ## v0.0.21 2026-06-15
 - Introduce `<ul>` in nav for good software development practices
 - Modify the new nav with css
