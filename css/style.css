@@ -22,7 +22,7 @@ h1, nav, footer {
 }
 
 nav, footer {
-    background-color: rgb(6, 6, 66)
+    background-color: rgb(6, 6, 66);
 }
 
 nav {
@@ -40,7 +40,7 @@ h1 {
 }
 
 header {
-    background-color: rgb(6, 6, 55)
+    background-color: rgb(6, 6, 55);
 }
 
 a:visited {
@@ -95,8 +95,8 @@ nav ul li {
     margin-left: 5px;
 }
 
-#contents, #timeline {
-    margin-left: 20px;
+#list-contents, #list-timeline {
+    margin-left: 15px;
 }
 
 section {
@@ -106,4 +106,13 @@ section {
 
 figure, video, iframe {
     margin: 5px;
+}
+
+img, video, iframe {
+    border: 5px solid rgb(6, 6, 66);
+    border-radius: 25px;
+}
+
+dd {
+    margin-left: 20px;
 }
