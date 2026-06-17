@@ -1,3 +1,6 @@
+## v0.0.23 2026-06-17
+- Added definitions of web 1.0, web 2.0 & web 3.0
+
 ## v0.0.22 2026-06-16
 - Added margins and paddings for good software practices.
 - Added border to img, video & iframe
