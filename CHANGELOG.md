@@ -1,3 +1,7 @@
+## v0.0.24 2026-06-18
+- Added label element to form element
+- Modify form in `contact.html`
+
 ## v0.0.23 2026-06-17
 - Added definitions of web 1.0, web 2.0 & web 3.0
 
