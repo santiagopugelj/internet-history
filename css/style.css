@@ -95,7 +95,7 @@ nav ul li {
     margin-left: 5px;
 }
 
-#list-contents, #list-timeline {
+#list-contents, #list-timeline, #crypto-list {
     margin-left: 15px;
 }
 
@@ -105,7 +105,12 @@ section {
 }
 
 figure, video, iframe {
-    margin: 5px;
+    margin-left: 5px;
+}
+
+figcaption {
+    margin-left: 10px;
+    margin-top: -5px;
 }
 
 img, video, iframe {

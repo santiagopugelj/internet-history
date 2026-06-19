@@ -1,3 +1,6 @@
+## v0.0.25 1016-06-19
+- Added section for cryptocurrencies
+
 ## v0.0.24 2026-06-18
 - Added label element to form element
 - Modify form in `contact.html`
