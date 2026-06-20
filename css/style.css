@@ -5,7 +5,14 @@
 }
 
 body {
-    background-color: rgb(8, 8, 83);
+    background: url(../images/backg.png);
+    margin-top: 20px;
+    margin-left: 60px;
+    margin-right: 60px;
+}
+
+main {
+    background-color: rgb(7, 7, 77);
 }
 
 h1, p, h2, a, h3, h4, figcaption, ul, code, dl, label {
@@ -120,4 +127,9 @@ img, video, iframe {
 
 dd {
     margin-left: 20px;
+}
+
+nav ul li {
+    margin-top: 5px;
+    margin-left: 10px;
 }

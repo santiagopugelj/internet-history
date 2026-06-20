@@ -1,4 +1,10 @@
-## v0.0.25 1016-06-19
+## v0.0.26 2026-06-20
+- Added link to first web page by cern
+- Modify body and main in css
+- Modify nav in css
+- Added backgorund image for body
+
+## v0.0.25 2026-06-19
 - Added section for cryptocurrencies
 
 ## v0.0.24 2026-06-18
