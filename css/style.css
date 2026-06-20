@@ -133,3 +133,7 @@ nav ul li {
     margin-top: 5px;
     margin-left: 10px;
 }
+
+textarea {
+    color: rgb(152, 235, 29);
+    background-color: rgb(35, 35, 134);
