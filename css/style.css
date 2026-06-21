@@ -137,3 +137,9 @@ nav ul li {
 textarea {
     color: rgb(152, 235, 29);
     background-color: rgb(35, 35, 134);
+}
+
+fieldset {
+    color: rgb(152, 235, 29);
+    border-color: transparent;
+}

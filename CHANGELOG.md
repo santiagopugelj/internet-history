@@ -1,3 +1,9 @@
+## v0.0.28 2026-06-21
+- Improve contact form placeholder examples
+- Added `lang="en"` to html in `contact.html`
+- Added fieldset and legend to form in `contact.html`
+- Added `<title>Contact</title>` to head element
+
 ## v0.0.27 2026-06-20
 - Improve contact form
 - Added favicon to `contact.html`
