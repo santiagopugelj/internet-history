@@ -1,3 +1,6 @@
+## v0.0.29 2026-06-23
+- Add rows and cols attributes to textarea element in form in `contanct.html`
+
 ## v0.0.28 2026-06-21
 - Improve contact form placeholder examples
 - Added `lang="en"` to html in `contact.html`
