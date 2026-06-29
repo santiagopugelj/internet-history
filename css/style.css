@@ -15,8 +15,10 @@ main {
     background-color: rgb(7, 7, 77);
 }
 
-h1, p, h2, a, h3, h4, figcaption, ul, code, dl, label {
+p, h2, a, h3, h4, figcaption, ul, code, dl, label, legend, button {
     color: rgb(152, 235, 29);
+    font-family: VT323;
+    font-size: 20px;
 }
 
 img { 
@@ -137,9 +139,27 @@ nav ul li {
 textarea {
     color: rgb(152, 235, 29);
     background-color: rgb(35, 35, 134);
+    border: solid 3px rgb(30, 30, 143);
+    border-radius: 3px; 
+    margin-top: 10px;
 }
 
 fieldset {
     color: rgb(152, 235, 29);
     border-color: transparent;
+}
+
+button {
+    color: rgb(152, 235, 29);
+    background: rgb(35, 35, 134);
+    margin-top: 10px;
+    margin-left: 100px;
+    width: 80px;
+}
+
+input {
+    margin-top: 5px;
+    border-style: none;
+    border-radius: 3px;
+    height: 20px;
 }

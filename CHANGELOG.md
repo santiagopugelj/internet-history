@@ -1,5 +1,12 @@
+## v0.0.30 2026-06-29 ##
+- Added properly font
+- Modify submit button in contact form with css 
+- Modify textarea of "message" in contact form with css 
+- Modify inputs "Full name" & "Email" in contact form with css 
+- Change the placeholders of "Full name" & "Email" from John Doe to Tim Berners-Lee
+
 ## v0.0.29 2026-06-23
-- Add rows and cols attributes to textarea element in form in `contanct.html`
+- Add rows and cols attributes to textarea element in form in `contact.html`
 
 ## v0.0.28 2026-06-21
 - Improve contact form placeholder examples
