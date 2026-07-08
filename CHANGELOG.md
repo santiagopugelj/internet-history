@@ -1,4 +1,7 @@
-## v0.0.30 2026-06-29 ##
+## v0.0.31 2026-07-08
+- Add table
+
+## v0.0.30 2026-06-29 
 - Added properly font
 - Modify submit button in contact form with css 
 - Modify textarea of "message" in contact form with css 

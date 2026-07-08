@@ -15,7 +15,7 @@ main {
     background-color: rgb(7, 7, 77);
 }
 
-p, h2, a, h3, h4, figcaption, ul, code, dl, label, legend, button {
+p, h2, a, h3, h4, figcaption, ul, code, dl, label, legend, button, table {
     color: rgb(152, 235, 29);
     font-family: VT323;
     font-size: 20px;
@@ -162,4 +162,11 @@ input {
     border-style: none;
     border-radius: 3px;
     height: 20px;
+}
+
+table, tr, td {
+    border: solid;
+    margin: 3px;
+    padding: 3px;
+    text-align: center;
 }
